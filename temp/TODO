@@ -1,0 +1,12 @@
+1. cotent_type, handle sample papers in textbook service
+2. is_worksheet, handle in usage first screen
+3. sorting, _id, priority
+4. MarksDistributedBook
+5. AddQuestionTeacher
+6. GetChapterData
+7. GetChapterQuestions (ignored, cuz not being used in app)
+8. GetBooksWithChapterMap, questionBank
+
+notes:
+1. ignored collectionBook
+2. test for is_worksheet
