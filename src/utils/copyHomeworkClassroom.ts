@@ -8,7 +8,7 @@ export const copyHomeworkClassroom = async () => {
   let tStartIdHomeworks = startIdHomeworks;
   while (true) {
     const homeworks: any = await HomeworkClassroom.find(
-      { _id: { $gt: tStartIdHomeworks } },
+      { _id: { $gte: tStartIdHomeworks } },
       {
         __v: false,
       }
